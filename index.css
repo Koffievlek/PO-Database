@@ -1,0 +1,43 @@
+
+
+
+
+
+
+
+.gameplayImage{
+    margin-top: 20px;
+    width: 100%;
+}
+/* Dit zorgt ervoor dat de afbeeldingen van de class "gameplayImage" niet direct onder de tekst komt te staan.*/
+
+table{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    border-spacing: 15px;
+}
+/* Dit zorgt voor bepaalde specificaties voor de tabel. */
+
+td{
+    width: 50%;
+}
+/* Dit zorgt voor de breedte van de td van de tabel. */
+
+iframe{
+    width: 80%;
+    height: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* Op de website https://stackoverflow.com/questions/8366957/how-to-center-an-iframe-horizontally heb ik gezien hoe ik een iframe kon centreren. 
+    Ik probeerde eerste dit te doen door margin-left en margin-right auto te doen, maar dit werkte niet. Blijkbaar meost je de display op block zetten. */
+}
+
+.lijst{
+    margin-left: 40px;
+    padding-bottom: 40px;
+}
+/* Dit zorgt ervoor dat de list op de juiste positie staat. */
+
